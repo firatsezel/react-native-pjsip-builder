@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:xenial-20191212
 
 RUN apt-get -y upgrade && \
     apt-get -y dist-upgrade && \
